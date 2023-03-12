@@ -76,10 +76,10 @@
     <div class="divided">
     <h1 class="class1">Hi welcome to my website, I'm sphinx.</h1>
     <p class="p1">Kindly Email us.</p>
-    
-    <form action="https://formsubmit.co/villanuevajed34@gmail.com" method="post">
+    <input type="hidden" name="_captcha" value="false">
+    <form action="https://formsubmit.co/villanuevajed34@gmail.com" method="post"><input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_subject" value="Hi mr. Sphinx we have a new submission!">
-        <input type="hidden" name="_captcha" value="false">
+        
         <input class="email1" type="email" name="email" placeholder="Email Address" required>
         <br>
         <br>
@@ -92,11 +92,9 @@
         <br>
         <input class="pass1" type="password" name="password" placeholder="Password." required>
         <br>
-        <button class="sendbutton" type="submit"><b>Send</button>
-        <input type="button" value="click here to clear" onclick="document.getElementById('inputText').value = '' "/>
-        <input type="text" value="Tutorix" id="inputText"/>
+        <button id="myInput" class="sendbutton" type="submit"><b>Send</button>
         <input type="hidden" name="_next" value="https://lolsphinx.github.io/mywebsite/thankyou.html">
-   </form>
+    </form>
     </div>
 </body>
 </html>
