@@ -1,0 +1,238 @@
+/* ---------------------------------- */
+/* FOR COMPUTER SCREEN (WIDE SCREENS) */
+/* ---------------------------------- */
+
+@media screen and (min-width: 901px){
+html, body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    font-size: 120%;
+    position: relative;
+}
+    
+html {
+    display: table;
+    margin: auto;
+    background-image: url(myloves.png);
+    background-size:auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+        
+}
+.class1 {
+    margin-bottom: 30px;
+}
+    
+body {
+    align-items: center;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+        
+}
+input {
+    font-size: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    font-family: monospace;
+    outline:none; border: rgb(199, 184, 184, 0.1)solid;
+    background-color: rgb(199, 184, 184, 0.1); border-radius: 10px;
+}
+.sendbutton {
+    border-radius: 7px;
+    margin-top: 20px;
+    font-family: monospace;
+    font-size: larger;
+    outline:none; border: rgb(199, 184, 184, 0.1)solid;
+    background-color: rgb(199, 184, 184, 0.1); border-radius: 10px;
+}
+.sendbutton:hover {
+    background: linear-gradient(to right, blueviolet, gray);
+    color:blanchedalmond;
+    font-family: monospace;
+    outline:none; border: rgb(199, 184, 184, 0.1)solid;
+    background-color: rgb(199, 184, 184, 0.1); border-radius: 10px;
+}
+.divided {
+    background: rgb(199, 184, 184, 0.5);
+    padding: 20px 40px 30px 40px;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: relative;
+    margin: auto;
+    margin: 50px;
+        
+}
+.p1 {
+    content: icon;
+}
+.message1 {
+    padding:40px; 
+    margin-top: 20px; 
+    outline:none; border: rgb(199, 184, 184, 0.1)solid;
+    background-color: rgb(199, 184, 184, 0.1); border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+        
+        
+}
+.message1:hover {
+    padding:40px; margin-top: 20px; 
+    outline:none; 
+    border: rgb(199, 184, 184, 0.1)solid;
+    background-color: rgb(199, 184, 184, 0.1);
+    border-radius: 10px;
+    color:rebeccapurple;
+}
+
+::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: black;
+}
+}
+
+
+
+
+/* ----------------- */
+/* FOR MOBILE SCREEN */
+/* ----------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    html, body {
+        font-family: monospace;
+        height: 100%;
+        font-size: 100%;
+        position: relative;
+    }
+    
+    html {
+        display: table;
+        margin: auto;
+        background-image: url(myloves.png);
+        background-size:auto;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        
+    }
+    .class1 {
+        margin-bottom: 30px;
+    }
+    
+    body {
+        align-items: center;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+    input {
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: rgb(199, 184, 184, 0.1)solid;
+        background-color: rgb(199, 184, 184, 0.1);
+        text-decoration:none;
+        outline: none;
+        font-family: monospace;
+    }
+    input:hover {
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: rgb(199, 184, 184, 0.1)solid;
+        background-color: rgb(199, 184, 184, 0.1);
+        text-decoration:none;
+        color: tomato;
+        outline: none;
+    }
+    .sendbutton {
+        margin-left: 5px;
+        border-radius: 7px;
+        margin-top: 30px;
+        font-family: monospace;
+        font-size: 18px;
+        outline: none;
+        border: rgb(199, 184, 184, 0.1)solid;
+        background-color: rgb(199, 184, 184, 0.1);
+    }
+    .sendbutton:hover {
+        margin-top: 30;
+        color:blanchedalmond;
+        font-family: monospace;
+        outline: none;
+        font-size: 14px;
+        border: rgb(199, 184, 184, 0.1)solid;
+        background-color: rgb(199, 184, 184, 0.1);
+    }
+    .divided {
+        background: rgb(199, 184, 184, 0.8);
+        padding: 10px 10px 24px 10px;
+        border-radius: 20px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        position: relative;
+        margin: auto;
+        margin: 20px;
+        
+    }
+    .p1 {
+        content: icon;
+    }
+    .message1 {
+        padding:27px; margin-top: 20px; 
+        outline:none; border: rgb(199, 184, 184, 0.1)solid;
+        background-color: rgb(199, 184, 184, 0.1); border-radius: 10px;
+        color: black;
+    }
+    .message1:hover {
+        padding:27px; margin-top: 20px; 
+        outline:none; 
+        border: rgb(199, 184, 184, 0.1)solid;
+        background-color: rgb(199, 184, 184, 0.1);
+        border-radius: 10px;
+        color:tomato
+    }
+    ::placeholder {
+        color: black;
+        opacity: 1; /* Firefox */
+      }
+      
+      :-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color: black;
+      }
+      
+      ::-ms-input-placeholder { /* Microsoft Edge */
+       color: black;
+    }
+}
